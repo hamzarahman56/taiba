@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiba Haramayn (Pvt.) Limited</title>
+    <style>
+        /* CSS Reset & Variables */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #0056b3; /* Professional Blue */
+            --secondary-color: #f4f4f4;
+            --text-color: #333;
+            --light-text: #fff;
+        }
+
+        /* Typography & Layout */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: var(--primary-color);
+            color: var(--light-text);
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 5px solid #003d82;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background: #333;
+            color: var(--light-text);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #b3d4fc;
+        }
+
+        /* Section Styles */
+        section {
+            background: var(--light-text);
+            margin: 20px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+
+        /* Contact Details Grid */
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            background: #fdfdfd;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #222;
+            color: var(--light-text);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Taiba Haramayn (Pvt.) Limited</h1>
+            <p>Committed to Excellence in Business</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Business</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+        <section id="about">
+            <h2>About Our Company</h2>
+            <p>Welcome to <strong>Taiba Haramayn (Pvt.) Limited</strong>. Established as a private limited company, we are a registered business entity committed to sustainable growth and delivering value to our stakeholders. With a strong foundation and dedication to our core business values, we strive to be a trusted partner in our industry.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Business Focus</h2>
+            <p>We operate with a focus on integrity, quality, and professionalism. Our team is dedicated to providing superior business solutions and navigating the commercial landscape with expertise to meet the evolving needs of our clients.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>We would love to hear from you. You can reach us at our registered head office:</p>
+            <br>
+            <div class="contact-info">
+                <div>
+                    <strong>Company Name:</strong> Taiba Haramayn (Pvt.) Limited
+                </div>
+                <div>
+                    <strong>Address:</strong> East Circular Road, Near Hilton Hotel, D.I. Khan, Pakistan
+                </div>
+                <div>
+                    <strong>Email:</strong> info@taibaharamayn.com.pk <em>(Placeholder)</em>
+                </div>
+                <div>
+                    <strong>Phone:</strong> +92 XXX XXXXXXX <em>(Placeholder)</em>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taiba Haramayn (Pvt.) Limited. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
